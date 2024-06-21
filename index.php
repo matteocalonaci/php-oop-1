@@ -67,12 +67,18 @@ $movies = [ $film1, $film2, $film3, $film4, $film5 ]
 
 <h1>Hello OOP World</h1>
 
-<li><?= "$film1->titolo $film1->genere $film1->anno_di_uscita $film1->regia $film1->durata" ?></li>
+<!-- <li><?= "$film1->titolo $film1->genere $film1->anno_di_uscita $film1->regia $film1->durata" ?></li>
 <li><?= "$film2->titolo $film2->genere $film2->anno_di_uscita $film2->regia $film2->durata"?></li>
 <li><?= "$film3->titolo $film3->genere $film3->anno_di_uscita $film3->regia $film3->durata" ?></li>
-<li><?= "$film4->titolo $film4->genere $film4->anno_di_uscita $film4->regia $film4->durata" ?></li>
+<li><?= "$film4->titolo $film4->genere $film4->anno_di_uscita $film4->regia $film4->durata" ?></li> -->
 
- 
+<ul>
+<?php 
+foreach($movies as $indice => $film){
+    echo "<li>$film->titolo <br> $film->genere <br> $film->anno_di_uscita <br> $film->regia <br> $film->durata</li>";
+}
+?>
+</ul> 
 
 </body>
 

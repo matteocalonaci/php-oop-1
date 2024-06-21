@@ -4,9 +4,10 @@ body {
 }
 
 h1 {
-    color: green;
+    color: purple;
 }
 
 li{
     color:  white;
+    padding: 1rem;
 }
