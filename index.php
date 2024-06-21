@@ -45,6 +45,7 @@ $film5->anno_di_uscita = 2016;
 $film5->regia = "Makoto Shinkai";
 $film5->durata = "107 min";
 
+$movies = [ $film1, $film2, $film3, $film4, $film5 ]
 
 
 
@@ -66,6 +67,12 @@ $film5->durata = "107 min";
 
 <h1>Hello OOP World</h1>
 
+<li><?= "$film1->titolo $film1->genere $film1->anno_di_uscita $film1->regia $film1->durata" ?></li>
+<li><?= "$film2->titolo $film2->genere $film2->anno_di_uscita $film2->regia $film2->durata"?></li>
+<li><?= "$film3->titolo $film3->genere $film3->anno_di_uscita $film3->regia $film3->durata" ?></li>
+<li><?= "$film4->titolo $film4->genere $film4->anno_di_uscita $film4->regia $film4->durata" ?></li>
+
+ 
 
 </body>
 
